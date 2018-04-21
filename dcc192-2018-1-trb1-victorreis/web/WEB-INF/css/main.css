@@ -1,0 +1,29 @@
+header, footer {
+    background-color: lightgrey;
+}
+
+html{
+    width: 400px;
+    margin: auto;
+}
+
+menu{
+    background-color: darkgrey;
+    text-decoration: none;
+    list-style: none;
+    padding: 0.3em;
+    margin: 0;
+}
+menu li{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+
+}
+menu a{
+    width: 50px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}

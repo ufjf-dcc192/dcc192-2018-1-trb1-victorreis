@@ -1,0 +1,25 @@
+<%@page import="java.util.Date"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%><!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" 
+              content="text/html; charset=UTF-8" />
+        <title><%=request.getAttribute("titulo")%></title>
+        <link rel="stylesheet" href="/css/main.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Gerenciador de Comandas</h1>
+            <div>São <%=new Date()%></div>
+        </header>
+        <aside>
+            <menu>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="criar-comanda.html">Criar Comanda</a></li>
+                <li><a href="listar-comandas.html">Listar Comandas</a></li>
+            </menu>
+        </aside>
+        <hr>
+        <main>
+            <article>
+                <h1><%=request.getAttribute("titulo")%></h1>

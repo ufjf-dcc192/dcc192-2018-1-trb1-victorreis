@@ -1,13 +1,27 @@
-#Identificação do aluno: nome, matrícula e curso.
+# Trabalho de Laboratório de Programação Sistemas Web
 
-#Texto explicando o cenário para o qual o sistema foi desenvolvido;
+## Identificação do aluno: nome, matrícula e curso
+Nome: `Victor Crisóstomo Cruz Reis`
+Matrícula: `201176037`
+Curso: `Sistemas de Informação`
 
-#Modelo de dados utilizado;
+## Texto explicando o cenário para o qual o sistema foi desenvolvido
 
-#Levantamento dos campos necessários para a construção das telas;
+## Modelo de dados utilizado
+* Modelos:
+    * Item: 
+    * Mesa: 
+    * Comanda: 
+* Persistencia:
+    * aaa
+* bbb
 
-#Descrição sucinta dos pontos importantes do funcionamento da interface;
+## Levantamento dos campos necessários para a construção das telas
 
-#Discussão dos pontos que apresentaram maior dificuldade de implementação;
+## Descrição sucinta dos pontos importantes do funcionamento da interface
 
-#Pontos onde podem ser realizadas melhorias futuras.
+## Discussão dos pontos que apresentaram maior dificuldade de implementação
+
+## Pontos onde podem ser realizadas melhorias futuras
+* Substituição da classe Persistencia por um banco real.
+* Utilizar algum framework CSS.

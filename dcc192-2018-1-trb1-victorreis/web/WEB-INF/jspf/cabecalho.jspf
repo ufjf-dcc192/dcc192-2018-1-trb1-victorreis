@@ -10,13 +10,14 @@
     <body>
         <header>
             <h1>Gerenciador de Comandas</h1>
-            <div>São <%=new Date()%></div>
         </header>
+        <hr>
         <aside>
             <menu>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="criar-comanda.html">Criar Comanda</a></li>
                 <li><a href="listar-comandas.html">Listar Comandas</a></li>
+                <li><a href="listar-itens-cadastrados.html">Listar itens Cadastrados no sistema</a></li>
             </menu>
         </aside>
         <hr>

@@ -2,12 +2,12 @@ package br.ufjf.dcc192;
 
 public class Item {
     private Integer id;
-    private String name;
+    private String nome;
     private Double valor;
 
-    public Item(Integer id, String name, Double valor) {
+    public Item(Integer id, String nome, Double valor) {
         this.id = id;
-        this.name = name;
+        this.nome = nome;
         this.valor = valor;
     }
 
@@ -19,12 +19,12 @@ public class Item {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getNome() {
+        return nome;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNome(String name) {
+        this.nome = name;
     }
 
     public Double getValor() {

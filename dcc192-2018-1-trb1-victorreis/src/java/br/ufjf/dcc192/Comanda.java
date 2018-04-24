@@ -1,18 +1,30 @@
 package br.ufjf.dcc192;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Comanda {
+    private Integer id;
     private Mesa mesa;
-    private Map<Integer, Item> itens;
+    private Map<Item, Integer> itens;
     private String nomeClienteResponsavel;
     private String horaAbertura;
     private String horaFechamento;
     
-    public Comanda(Mesa mesa, String nomeClienteResponsavel, String horaAbertura) {
+    public Comanda(Integer id, Mesa mesa, String nomeClienteResponsavel, String horaAbertura) {
+        this.id = id;
         this.mesa = mesa;
         this.nomeClienteResponsavel = nomeClienteResponsavel;
         this.horaAbertura = horaAbertura;
+        this.itens = new HashMap<>();
+    }
+    
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
     
     public Mesa getMesa() {
@@ -23,11 +35,11 @@ public class Comanda {
         this.mesa = mesa;
     }
 
-    public Map<Integer, Item> getItens() {
+    public Map<Item, Integer> getItens() {
         return itens;
     }
 
-    public void setItens(Map<Integer, Item> itens) {
+    public void setItens(Map<Item, Integer> itens) {
         this.itens = itens;
     }
 

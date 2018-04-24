@@ -9,6 +9,10 @@ Curso: `Sistemas de Informação`
 
 ## Texto explicando o cenário para o qual o sistema foi desenvolvido
 
+O cenário basicamente é composto de conjuntos predefinidos de mesas, itens e de comandas, sendo que não há como criar/editar/remover mesas e itens (o objeto obviamente já que cada item só tem uma instância que pode ser apontada por várias comandas). Pode-se criar novas comandas mesmo pra mesas que ainda tem comandas em aberto (já que outras pessoas podem chegar depois e preferem não dividir tudo no final).
+
+A ideia é criar comandas de acordo com a necessidade, acessar a lista de itens através do botão LISTAR na tabela de comandas, adicionar/remover itens e fechar/reabrir comandas, exatamente como pedido no enunciado. Não é permitido remover comandas já que é interessante manter os dados hitóricos.
+
 ## Modelo de dados utilizado e Levantamento dos campos necessários para a construção das telas
 * **MODELOS (getters e setters omitidos):****
     * ITEM: 

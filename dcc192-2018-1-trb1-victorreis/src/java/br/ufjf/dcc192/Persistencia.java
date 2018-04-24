@@ -1,11 +1,7 @@
 package br.ufjf.dcc192;
 
-import com.sun.xml.rpc.processor.modeler.j2ee.xml.javaIdentifierType;
-import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
-import java.util.Random;
 
 public class Persistencia {
 
